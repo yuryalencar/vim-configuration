@@ -1,0 +1,20 @@
+call plug#begin('~/.vim/plugged')
+
+" Fugitive Vim GitHub Wrapper
+Plug 'tpope/vim-fugitive'
+
+" Vim airline to show important informations in footer
+Plug 'vim-airline/vim-airline'
+
+" Nerd Tree to manage directories in vim
+Plug 'preservim/nerdtree'
+
+" To find files and preview using fzf functions
+" To this work you need install fzf -> brew install fzf
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+" To show modified code lines
+Plug 'airblade/vim-gitgutter'
+
+call plug#end()
