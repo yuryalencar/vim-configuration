@@ -46,6 +46,8 @@ vim
 
 # Best Commands
 
+### GENERAL COMMANDS
+
 ##### obs.: you can merge commands described how normal mode with visual mode to affect several lines
 
 #### cut line [NORMAL MODE]
@@ -71,3 +73,72 @@ yy
 ```bash
 $
 ```
+
+#### go to respective line [NORMAL MODE]
+
+```bash
+:[line-number]
+```
+
+#### undo actions [NORMAL MODE]
+
+```bash
+u
+```
+
+#### split you window vertically
+
+```bash
+:vsp [path/filename.extesion]
+```
+
+
+#### split you window horizontally
+
+```bash
+:sp [path/filename.extesion]
+```
+
+#### change view to right
+
+```bash
+CTRL + W
+L
+```
+
+#### change view to left
+
+```bash
+CTRL + W
+H
+```
+
+#### change view to up
+
+```bash
+CTRL + W
+J
+```
+
+#### change view to up
+
+```bash
+CTRL + W
+K
+```
+
+#### split selected window
+
+```bash
+CTRL + W
+S
+```
+
+### PLUGINS COMMANDS
+
+#### open NerdTree [NORMAL MODE]
+
+```bash
+:NERDTree
+```
+
