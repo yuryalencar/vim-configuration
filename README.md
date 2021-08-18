@@ -1,5 +1,11 @@
 # vim-configuration
 
+#### go to /Users/[your-user]
+
+```bash
+cd /
+```
+
 #### create .vim folder in /Users/[your-user]
 
 ```bash
