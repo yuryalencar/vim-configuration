@@ -43,3 +43,31 @@ vim
 vim
 :PlugUpdate
 ```
+
+# Best Commands
+
+##### obs.: you can merge commands described how normal mode with visual mode to affect several lines
+
+#### cut line [NORMAL MODE]
+
+```bash
+dd
+```
+
+#### paste line [NORMAL MODE]
+
+```bash
+p
+```
+
+####  copy line [NORMAL MODE]
+
+```bash
+yy
+```
+
+#### go to end line [NORMAL MODE]
+
+```bash
+$
+```
